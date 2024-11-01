@@ -1,0 +1,105 @@
+/* Сброс стилей и общие настройки */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    min-height: 100vh; /* Минимальная высота для полного экрана */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Контейнер для выравнивания контента */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex: 1; /* Заполнение оставшегося пространства */
+}
+
+/* Шапка и навигация */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+.auth-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.auth-links a:hover {
+    color: #ffcc00;
+}
+
+/* Основная часть */
+main {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.intro {
+    margin: 20px 0;
+}
+
+.intro h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Футер */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: auto; /* Выталкивает футер вниз */
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
